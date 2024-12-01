@@ -25,11 +25,16 @@ namespace ejercicioTelegrama
             double coste;
 
             textoTelegrama = textBoxArea.Text;
-            if (urgentCheckBox.Checked)
+            if (chkUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
-            numPalabras = textoTelegrama.Length;
+            else
+            {
+                tipoTelegrama = 'o';
+            }
+            string[] palabras = textoTelegrama.Split(' ');
+            numPalabras = palabras.Length;
 
             if (tipoTelegrama == 'o')
             {

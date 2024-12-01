@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxArea = new System.Windows.Forms.TextBox();
-            this.urgentCheckBox = new System.Windows.Forms.CheckBox();
+            this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.calcButton = new System.Windows.Forms.Button();
@@ -55,16 +55,16 @@
             this.textBoxArea.Size = new System.Drawing.Size(661, 214);
             this.textBoxArea.TabIndex = 1;
             // 
-            // urgentCheckBox
+            // chkUrgente
             // 
-            this.urgentCheckBox.AutoSize = true;
-            this.urgentCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.urgentCheckBox.Location = new System.Drawing.Point(17, 259);
-            this.urgentCheckBox.Name = "urgentCheckBox";
-            this.urgentCheckBox.Size = new System.Drawing.Size(119, 29);
-            this.urgentCheckBox.TabIndex = 2;
-            this.urgentCheckBox.Text = "Urgente?";
-            this.urgentCheckBox.UseVisualStyleBackColor = true;
+            this.chkUrgente.AutoSize = true;
+            this.chkUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUrgente.Location = new System.Drawing.Point(17, 259);
+            this.chkUrgente.Name = "chkUrgente";
+            this.chkUrgente.Size = new System.Drawing.Size(119, 29);
+            this.chkUrgente.TabIndex = 2;
+            this.chkUrgente.Text = "Urgente?";
+            this.chkUrgente.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -104,7 +104,7 @@
             this.Controls.Add(this.calcButton);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.urgentCheckBox);
+            this.Controls.Add(this.chkUrgente);
             this.Controls.Add(this.textBoxArea);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -118,7 +118,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxArea;
-        private System.Windows.Forms.CheckBox urgentCheckBox;
+        private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button calcButton;
